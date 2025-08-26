@@ -11,6 +11,40 @@
     --CorFonteIcons: #5F6369;
 }
 .page {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
+}
+.header {
+    background-color: greenyellow;
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+.container_subheader {
+    background-color: white;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    padding-left: 70%;
+    gap: 32px; 
+}
+.suporte {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.suporte img {
+    width: 28px;
+}
+.tema {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+main {
+    background-color: tomato;
+    height: 70%;
+    width: 100%;
 }
