@@ -8,4 +8,9 @@
     --CorPrimaria: #E90313;
     --CorSecundaria: #A3020D;
     --FundoSite: #ffffff;
+    --CorFonteIcons: #5F6369;
+}
+.page {
+    width: 100vw;
+    height: 100vh;
 }
