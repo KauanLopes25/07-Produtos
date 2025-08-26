@@ -17,8 +17,8 @@
     height: 100vh;
 }
 .header {
-    background-color: greenyellow;
     display: flex;
+    flex-direction: column;
     height: 20%;
     width: 100%;
 }
@@ -42,6 +42,10 @@
     display: flex;
     align-items: center;
     gap: 12px;
+}
+.container_header {
+    background-color: yellow;
+    display: flex;
 }
 main {
     background-color: tomato;
