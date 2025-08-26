@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --CorPrimaria: #E90313;
+    --CorSecundaria: #A3020D;
+    --FundoSite: #ffffff;
+}
