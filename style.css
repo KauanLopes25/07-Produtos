@@ -46,6 +46,13 @@
 .container_header {
     background-color: yellow;
     display: flex;
+
+}
+.barrapesquisa {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
 }
 main {
     background-color: tomato;
