@@ -9,6 +9,7 @@
     --CorSecundaria: #A3020D;
     --FundoSite: #ffffff;
     --CorFonteIcons: #5F6369;
+    --CorBotaoCompra: #009E2A;
 }
 
 .page {
@@ -18,6 +19,9 @@
     height: 100vh;
 }
 
+/*******************************/
+/******** INICIO HEADER ********/
+/*******************************/
 .header {
     display: flex;
     flex-direction: column;
@@ -87,11 +91,83 @@
     align-items: center;
     justify-content: center;
 }
+
 .lupa img {
     width: 25px;
     height: auto;
 }
 
+.login {
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+.login img {
+    height: 35px;
+    width: auto;
+}
+
+.login p {
+    font-size: large
+}
+
+.favoritos {
+    display: flex;
+    width: 140px;
+    height: 30px;
+    align-items: center;
+}
+
+.favoritos img {
+    height: 35px;
+    width: auto;
+}
+
+.favoritos p {
+    font-size: large
+}
+
+.carrinhoCompra {
+    display: flex;
+    background-color: var(--CorBotaoCompra);
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 6px;
+}
+
+.carrinho {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho img {
+    width: 40px;
+}
+
+.textoBotaoCompra p {
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+.textoCarrinho {
+    font-size: large;
+    font-weight: 900;
+}
+
+/*******************************/
+/********* FINAL HEADER ********/
+/*******************************/
+
+/*******************************/
+/********* INICIO MAIN *********/
+/*******************************/
 main {
     background-color: tomato;
     height: 70%;
