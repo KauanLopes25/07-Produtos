@@ -10,50 +10,88 @@
     --FundoSite: #ffffff;
     --CorFonteIcons: #5F6369;
 }
+
 .page {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
+
 .header {
     display: flex;
     flex-direction: column;
     height: 20%;
     width: 100%;
 }
+
 .container_subheader {
     background-color: white;
     display: flex;
     height: 20%;
     width: 100%;
     padding-left: 70%;
-    gap: 32px; 
+    gap: 32px;
 }
+
 .suporte {
     display: flex;
     align-items: center;
     gap: 8px;
 }
+
 .suporte img {
     width: 28px;
 }
+
 .tema {
     display: flex;
     align-items: center;
     gap: 12px;
 }
+
 .container_header {
-    background-color: yellow;
     display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.logo img {
+    /* background-color: red; */
+    width: 250px;
+    height: auto;
 
 }
-.barrapesquisa {
+
+.barraPesquisa {
     display: flex;
-    flex-direction: row;
-    height: 80%;
-    width: 100%;
+    align-items: center;
+    width: 600px;
+    height: 50px;
 }
+
+.barraPesquisa input {
+    width: 550px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.lupa {
+    display: flex;
+    background-color: red;
+    width: 40px;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.lupa img {
+    width: 25px;
+    height: auto;
+}
+
 main {
     background-color: tomato;
     height: 70%;
